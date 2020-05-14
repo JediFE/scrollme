@@ -8,7 +8,7 @@ This is fork of https://github.com/nckprsn/scrollme
 ### Install
 
 ```
-npm install scrollme@git@github.com:artemln/scrollme.git
+npm install scrollme@git@github.com:JediFE/scrollme.git
 ```
 
 ### Init
