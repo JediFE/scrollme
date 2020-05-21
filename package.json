@@ -1,0 +1,44 @@
+{
+  "authors": [
+    {
+      "name": "Nick Pearson",
+      "url": "http://nckprsn.com"
+    },
+    {
+      "name": "dotnetCarpenter",
+      "url": "https://github.com/dotnetCarpenter"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/nckprsn/scrollme/issues"
+  },
+  "dependencies": {
+    "jquery": ">=1.8"
+  },
+  "description": "A jQuery plugin for adding simple scrolling effects to web pages.",
+  "devDependencies": {
+    "uglify-js": "^2.6.2"
+  },
+  "gitHead": "13333fa2d9040aa7ed50b32d825ae205fcd5b19f",
+  "homepage": "https://github.com/nckprsn/scrollme#readme",
+  "keywords": [
+    "animation",
+    "scrolling"
+  ],
+  "license": "GPLv3",
+  "main": "jquery.scrollme.js",
+  "name": "scrollme",
+  "optionalDependencies": {},
+  "readme": "scrollme\n========\n\nA jQuery plugin for adding simple scrolling effects to web pages.\n\nThis is fork of https://github.com/nckprsn/scrollme\n\n### Install\n\n```\nnpm install scrollme@git@github.com:artemln/scrollme.git\n```\n\n### Init\n\n```\nwindow.scrollme.init()\n```\n\n### Destroy\n\n```\nwindow.scrollme.destroy_elements()\n```\n\nAnd init again after destroyed:\n\n```javascript\nwindow.scrollme.init_elements();\nwindow.scrollme.on_resize();\n```\n\nDemo and usage guide: http://scrollme.nckprsn.com",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nckprsn/scrollme.git"
+  },
+  "scripts": {
+    "build": "uglifyjs jquery.scrollme.js --compress > jquery.scrollme.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.2"
+}
+
